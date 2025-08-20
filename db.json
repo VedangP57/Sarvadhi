@@ -13,36 +13,46 @@
 			"assignee": "David Chen",
 			"due": "2024-03-22",
 			"status": "Completed"
+		}
+	],
+	"projects": [
+		{
+			"id": "1",
+			"name": "Website Redesign",
+			"description": "Redesign the company website with modern UI",
+			"assignee": "John Doe"
+		},
+		{
+			"id": "2",
+			"name": "Mobile App",
+			"description": "Develop a mobile app for e-commerce",
+			"assignee": "Jane Smith"
 		},
 		{
 			"id": "3",
-			"task": "Content Creation",
-			"assignee": "Emily Wong",
-			"due": "2024-03-29",
-			"status": "In Progress"
+			"name": "CRM Integration",
+			"description": "Integrate CRM with internal tools",
+			"assignee": "Michael Johnson"
+		}
+	],
+	"employees": [
+		{
+			"id": "1",
+			"name": "Jack",
+			"role": "Admin",
+			"email": "jack@example.com"
 		},
 		{
-			"id": "4",
-			"task": "Testing and QA",
-			"assignee": "Michael Tan",
-			"due": "2024-04-05",
-			"status": "Not Started"
+			"id": "2",
+			"name": "Jay",
+			"role": "Employee",
+			"email": "jay@gmail.com"
 		},
 		{
-			"id": "5",
-			"task": "Launch Website",
-			"assignee": "Project Team",
-			"due": "2024-04-12",
-			"status": "Not Started"
-		},
-		{
-			"id": "c2f1",
-			"task": "",
-			"description": "",
-			"assignee": "",
-			"status": "",
-			"priority": "",
-			"dueDate": null
+			"id": "3",
+			"name": "John Doe",
+			"role": "Developer",
+			"email": "john@example.com"
 		}
 	]
 }

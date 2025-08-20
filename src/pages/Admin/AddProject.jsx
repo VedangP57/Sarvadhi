@@ -5,8 +5,8 @@ import NavBar from "../../components/NavBar.jsx";
 export default function AddProject() {
 	return (
 		<>
-						<NavBar />
-						<CreateProjectForm />
+			<NavBar />
+			<CreateProjectForm />
 		</>
 	);
 }

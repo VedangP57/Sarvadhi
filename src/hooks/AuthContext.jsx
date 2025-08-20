@@ -5,7 +5,7 @@ const AuthContext = createContext();
 const FAKE_ADMIN = {
 	name: "Jack",
 	email: "jack@example.com",
-	password: "12345",
+	password: "qwerty",
 };
 const FAKE_EMPLOYEE = {
 	name: "Jay",

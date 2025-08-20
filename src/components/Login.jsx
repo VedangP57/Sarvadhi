@@ -10,7 +10,8 @@ import {
 	Title,
 } from "@mantine/core";
 import { useState } from "react";
-import { useAuth } from "../hooks/AuthContext.jsx"; // adjust path
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../hooks/AuthContext.jsx";
 
 export default function LoginPage() {
 	const [email, setEmail] = useState("");
@@ -18,6 +19,7 @@ export default function LoginPage() {
 	const [error, setError] = useState("");
 
 	const { login } = useAuth();
+	const navigate = useNavigate();
 
 	const handleLogin = () => {
 		const result = login(email, password);
@@ -27,8 +29,11 @@ export default function LoginPage() {
 			setError("");
 			setEmail("");
 			setPassword("");
-			// Redirect to dashboard or home page
-			// router.push("/dashboard");
+			if (result.user?.role === "admin") {
+				navigate("/admin/dashboard");
+			} else {
+				navigate("/employee/dashboard");
+			}
 		}
 	};
 

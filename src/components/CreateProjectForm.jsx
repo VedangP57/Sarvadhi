@@ -1,13 +1,13 @@
 import {
-  Box,
-  Button,
-  Container,
-  Flex,
-  Select,
-  Stack,
-  Textarea,
-  TextInput,
-  Title
+	Box,
+	Button,
+	Container,
+	Flex,
+	Select,
+	Stack,
+	Textarea,
+	TextInput,
+	Title,
 } from "@mantine/core";
 
 export default function CreateProjectForm() {

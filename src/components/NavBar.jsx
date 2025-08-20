@@ -47,7 +47,6 @@ export default function Navbar() {
 									</Text>
 								))}
 							</Group>
-
 							{/* Buttons */}
 							<Group spacing="md">
 								<Button variant="light" radius="md" onClick={logout}>
@@ -61,8 +60,6 @@ export default function Navbar() {
 					)}
 				</Flex>
 			</Container>
-
-			{/* Hover underline styles */}
 			<style>
 				{`
           .nav-link::after {

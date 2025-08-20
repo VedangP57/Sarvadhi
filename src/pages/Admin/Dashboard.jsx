@@ -6,10 +6,10 @@ import ProjectTable from "../../components/ProjectTable.jsx";
 export default function Dashboard() {
 	return (
 		<>
-                  <NavBar />
-						<DashboardStats />
-						<EmployeeTable />
-                  <ProjectTable/>
+			<NavBar />
+			<DashboardStats />
+			<EmployeeTable />
+			<ProjectTable />
 		</>
 	);
 }

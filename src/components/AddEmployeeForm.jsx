@@ -1,11 +1,11 @@
 import {
-  Box,
-  Button,
-  Container,
-  Flex,
-  Stack,
-  TextInput,
-  Title,
+	Box,
+	Button,
+	Container,
+	Flex,
+	Stack,
+	TextInput,
+	Title,
 } from "@mantine/core";
 
 export default function AddEmployeeForm() {

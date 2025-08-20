@@ -1,13 +1,13 @@
 import {
-  Button,
-  Center,
-  Container,
-  Flex,
-  Group,
-  Loader,
-  Paper,
-  Table,
-  Title,
+	Button,
+	Center,
+	Container,
+	Flex,
+	Group,
+	Loader,
+	Paper,
+	Table,
+	Title,
 } from "@mantine/core";
 import { useTasks } from "../hooks/TaskContext.jsx";
 
